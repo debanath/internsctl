@@ -39,7 +39,7 @@ case "$1" in
         esac
         ;;
     "user")
-        # Execute user commands
+        # Execute user command
         case "$2" in
             "create")
                 if [ -z "$3" ]; then
