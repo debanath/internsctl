@@ -53,8 +53,8 @@
     ```bash
     sudo gzip -c internsctl.1 > /usr/local/share/man/man1/internsctl.1.gz
     ```
-
-    > If you encounter a `Permission Denied` error during the installation process, it may be due to insufficient privileges. In such cases, you can use the `su` (Super User) command to switch to the root user before executing the installation commands.
+> [!NOTE]
+> If you encounter a `Permission Denied` error during the installation process, it may be due to insufficient privileges. In such cases, you can use the `su` (Super User) command to switch to the root user before executing the installation commands.
 
 1.  **Test the Command:**  
     Open a new terminal and try the following commands:
